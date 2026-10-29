@@ -1,0 +1,135 @@
+[0m18:18:23.794866 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000127F708B770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000127F4DD91D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000127F9CE39D0>]}
+
+
+============================== 18:18:23.803591 | 96190557-b71b-42fb-b7bc-3292ac808de1 ==============================
+[0m18:18:23.803591 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m18:18:23.804371 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\deadf\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init neobank_dbt', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m18:18:23.804836 [debug] [MainThread]: Tracking: tracking
+[0m18:18:23.841163 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\deadf\.dbt
+[0m18:18:23.844778 [debug] [MainThread]: Starter project path: C:\Users\deadf\OneDrive\Документы\сховище даних\modern-data-stack-ecommerce\venv\Lib\site-packages\dbt\include\starter_project
+[0m18:18:23.870573 [info ] [MainThread]: Setting up your profile.
+[0m18:19:49.899315 [info ] [MainThread]: Profile neobank_dbt written to C:\Users\deadf\.dbt\profiles.yml using target's profile_template.yml and your supplied values.
+[0m18:19:49.903373 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m18:19:49.904585 [info ] [MainThread]: dbt version: 1.13.0-b1
+[0m18:19:49.905010 [info ] [MainThread]: python version: 3.14.8
+[0m18:19:49.905550 [info ] [MainThread]: python path: C:\Users\deadf\OneDrive\Документы\сховище даних\modern-data-stack-ecommerce\venv\Scripts\python.exe
+[0m18:19:49.906088 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m18:19:49.948931 [info ] [MainThread]: Using profiles dir at C:\Users\deadf\.dbt
+[0m18:19:49.949499 [info ] [MainThread]: Using profiles.yml file at C:\Users\deadf\.dbt\profiles.yml
+[0m18:19:49.949910 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\deadf\OneDrive\Документы\сховище даних\modern-data-stack-ecommerce\neobank_dbt\dbt_project.yml
+[0m18:19:49.951849 [info ] [MainThread]: adapter type: postgres
+[0m18:19:49.952365 [info ] [MainThread]: adapter version: 1.11.0
+[0m18:19:50.060642 [info ] [MainThread]: Configuration:
+[0m18:19:50.061304 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m18:19:50.061719 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m18:19:50.062088 [info ] [MainThread]: Required dependencies:
+[0m18:19:50.062487 [debug] [MainThread]: Executing "git --help"
+[0m18:19:50.102757 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m18:19:50.103275 [debug] [MainThread]: STDERR: "b''"
+[0m18:19:50.103629 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m18:19:50.104075 [info ] [MainThread]: Connection:
+[0m18:19:50.104486 [info ] [MainThread]:   host: host
+[0m18:19:50.104866 [info ] [MainThread]:   port: 5432
+[0m18:19:50.105245 [info ] [MainThread]:   user: user
+[0m18:19:50.105627 [info ] [MainThread]:   database: database
+[0m18:19:50.106004 [info ] [MainThread]:   schema: schema
+[0m18:19:50.106455 [info ] [MainThread]:   connect_timeout: 10
+[0m18:19:50.107043 [info ] [MainThread]:   role: None
+[0m18:19:50.107436 [info ] [MainThread]:   search_path: None
+[0m18:19:50.107794 [info ] [MainThread]:   keepalives_idle: 0
+[0m18:19:50.108150 [info ] [MainThread]:   sslmode: None
+[0m18:19:50.108508 [info ] [MainThread]:   sslcert: None
+[0m18:19:50.108907 [info ] [MainThread]:   sslkey: None
+[0m18:19:50.109377 [info ] [MainThread]:   sslrootcert: None
+[0m18:19:50.109840 [info ] [MainThread]:   application_name: dbt
+[0m18:19:50.110222 [info ] [MainThread]:   autocommit: False
+[0m18:19:50.110585 [info ] [MainThread]:   retries: 1
+[0m18:19:50.111203 [info ] [MainThread]: Registered adapter: postgres=1.11.0
+[0m18:19:50.375747 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m18:19:52.832734 [debug] [MainThread]: Using postgres connection "debug"
+[0m18:19:52.833113 [debug] [MainThread]: On debug: select 1 as id
+[0m18:19:52.833387 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:19:55.129580 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+could not translate host name "host" to address: Name or service not known
+
+[0m18:19:57.409299 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m18:19:57.409768 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m18:19:57.410073 [debug] [MainThread]: On debug: No close available on handle
+[0m18:19:57.410351 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m18:19:57.411081 [info ] [MainThread]: [31m1 check failed:[0m
+[0m18:19:57.411525 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  could not translate host name "host" to address: Name or service not known
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m18:19:57.412217 [info ] [MainThread]: Your new dbt project "neobank_dbt" was created!
+Initialized new project in C:\Users\deadf\OneDrive\Документы\сховище даних\modern-data-stack-ecommerce\neobank_dbt\neobank_dbt
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:19:57.412858 [info ] [MainThread]: [31mYour profile may need adjustments. You can find the logs of `dbt debug` above[0m
+[0m18:19:57.413876 [debug] [MainThread]: Command `dbt init` succeeded at 18:19:57.413747 after 93.83 seconds
+[0m18:19:57.414185 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m18:19:57.414474 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000127F9AD1480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000127F73227B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000127F9EC3020>]}
+[0m18:19:57.414829 [debug] [MainThread]: Flushing usage events
+[0m18:19:57.973711 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:23:23.444256 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C6BC26CF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C69789090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C6E6179D0>]}
+
+
+============================== 18:23:23.449955 | 7c678b6d-9e36-48df-82f6-6707c81e81e0 ==============================
+[0m18:23:23.449955 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m18:23:23.450635 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': '.', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'hints_enabled': 'True', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m18:23:23.451004 [debug] [MainThread]: Tracking: tracking
+[0m18:23:23.496704 [info ] [MainThread]: dbt version: 1.13.0-b1
+[0m18:23:23.497284 [info ] [MainThread]: python version: 3.14.8
+[0m18:23:23.497744 [info ] [MainThread]: python path: C:\Users\deadf\OneDrive\Документы\сховище даних\modern-data-stack-ecommerce\venv\Scripts\python.exe
+[0m18:23:23.498229 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m18:23:23.498761 [info ] [MainThread]: Using profiles dir at .
+[0m18:23:23.499188 [info ] [MainThread]: Using profiles.yml file at .\profiles.yml
+[0m18:23:23.499622 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\deadf\OneDrive\Документы\сховище даних\modern-data-stack-ecommerce\dbt_project.yml
+[0m18:23:23.500184 [info ] [MainThread]: Configuration:
+[0m18:23:23.500598 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m18:23:23.500971 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m18:23:23.501329 [info ] [MainThread]: Required dependencies:
+[0m18:23:23.501866 [debug] [MainThread]: Executing "git --help"
+[0m18:23:23.541482 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m18:23:23.541939 [debug] [MainThread]: STDERR: "b''"
+[0m18:23:23.542266 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m18:23:23.542802 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m18:23:23.543268 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m18:23:23.543649 [info ] [MainThread]: dbt looked for a profiles.yml file in .\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m18:23:23.544013 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\deadf\OneDrive\Документы\сховище даних\modern-data-stack-ecommerce\dbt_project.yml> not found
+
+[0m18:23:23.545400 [debug] [MainThread]: Command `dbt debug` failed at 18:23:23.545164 after 0.32 seconds
+[0m18:23:23.545826 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C6E43DBA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C6E6D4A70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C6E668AF0>]}
+[0m18:23:23.546180 [debug] [MainThread]: Flushing usage events
+[0m18:23:24.210904 [debug] [MainThread]: An error was encountered while trying to flush usage events

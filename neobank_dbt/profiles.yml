@@ -1,0 +1,12 @@
+neobank_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: admin
+      password: adminpassword
+      port: 5432
+      dbname: microcredit_dwh
+      schema: analytics
+      threads: 4

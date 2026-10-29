@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw_neobank
+    schema: raw
+    tables:
+      - name: branches
+      - name: clients
+      - name: accounts
+      - name: transfers
+      - name: loan_payments

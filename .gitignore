@@ -2,3 +2,6 @@ venv/
 __pycache__/
 *.pyc
 .DS_Store
+neobank_dbt/target/
+neobank_dbt/dbt_packages/
+neobank_dbt/logs/
